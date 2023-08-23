@@ -1,0 +1,87 @@
+@font-face {
+    font-family: EduNSWACTFoundation-VariableFont_wght ;
+    
+    src: url('../fonts/EduNSWACTFoundation-VariableFont_wght.ttf')
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  body{
+    background-color: black;  
+  }
+  
+  .container{
+    width: 80%;
+    margin: auto;
+  }
+  
+  h1{
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    font-family: 'Berkshire Swash', cursive;
+  }
+  
+  p{
+    font-size: 1.4em;
+    color: #fff;
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 1.5;
+    font-family: 'EduNSWACTFoundation-VariableFont_wght',cursive;
+  }
+
+    .borda_form{
+      background-color: rgba(128, 128, 128, 0.3) ;
+      padding: 20px;
+      border-radius: 25px;
+      margin-top: 1%;
+      box-sizing: border-box;
+    }
+    
+  
+    input[type=text], select, textarea, input[type=tel], input[type=email] {
+      width: 90%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 15px;
+      resize: vertical;
+      font-family: 'EduNSWACTFoundation-VariableFont_wght',cursive;
+    }
+   
+  
+  .col-25{
+    width: 25%;
+    float: left;
+    margin-top: 6px;
+  
+  }
+  
+  .col-75{
+  width: 75%;
+  float: left;
+  margin-top: 6px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  input[type=submit] {
+    background-color:
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+
+  .botaoform{
+    margin-top: 3%;
+  }
